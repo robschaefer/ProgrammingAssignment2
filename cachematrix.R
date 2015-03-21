@@ -1,9 +1,9 @@
 ## This file contains 2 functions:
 
 ##  makeCacheMatrix - creates 4 objects (set, get, setinverse, getinverse) for handling 
-##  a matrix and it's inverse
+##  a matrix and its inverse
 
-##  cacheSolve - checks if inverse has been computed, and grabs from cache is so.  If
+##  cacheSolve - checks if inverse has been computed, and grabs from cache if so.  If
 ##  not, then inverse is computed usind solve()
 
 
