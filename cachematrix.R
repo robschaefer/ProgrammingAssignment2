@@ -48,7 +48,7 @@ cacheSolve <- function(x, ...) {
 
 ##  if this is not null, then the inverse has already been computed.  Let's
 ##  give a message that we are retrieving from cache, then return inverse
-	if(!is.nul(inv)) {
+	if(!is.null(inv)) {
 		message('getting cached data')
 		return(inv)  ## return inverse and exit function
 	}
